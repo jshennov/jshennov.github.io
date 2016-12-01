@@ -1,4 +1,4 @@
-body {background-color: #0022FF;}
+body {background-color: #FFFB7C;}
 
 h1{
 	font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@ p{
 	color:#3B9BCC;
 }
 
-ol, ul {
+ol, ul, li {
 	font-family: Arial, sans-serif;
 	color:#3C8BB2;
 }
