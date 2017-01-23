@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
+
+body {
+	background-color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+header {
+    background-color: #fff;
+    border: 5px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #fff;
+    border: 5px black solid;
+    padding: 20px;
+    float:right;
+}
+article {
+    background-color: blue;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    clear: both;
+    background-color: #fff;
+    border: 5px black solid;
+    padding: 10px;
+}
+
+div {
+    background-color: blue;
+    border: 5px black solid;
+    padding: 20px;
+    margin: 50px;
+}
+
+section {
+    background-color: black;
+    border: 5px black solid;
+    padding: 20px;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+}
+p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#000;
+}
+ol, ul, li {
+	font-family: 'Playfair Display', serif;
+	color:##000;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    padding: 1em;
+}
+a:hover {
+    background-color: #fff;
+}
+a:visited {
+    color: blue;
+}
+
+#two_column {
+    background-color: #fff;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    background-color: #E582A2;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+    background-color: #E55B88;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
