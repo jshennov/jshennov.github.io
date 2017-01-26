@@ -34,6 +34,10 @@ div {
     margin: 50px;
 }
 
+img {
+    width:50%;
+}
+
 section {
     background-color: black;
     border: 5px black solid;
@@ -68,6 +72,7 @@ a:visited {
     color: blue;
 }
 
+
 #two_column {
     background-color: #fff;
     border: 1px black solid;
@@ -93,4 +98,12 @@ a:visited {
     content: " ";
     clear: both;
     height: 0;
+}
+
+
+@media only screen and (max-width: 800p;){
+    body {
+        background-color: red;
+    }
+    
 }
